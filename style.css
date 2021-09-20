@@ -145,6 +145,7 @@ header .navigation li a {
 .sci li a img {
     filter: invert(1);
     transform: scale(0.5);
+    background-image: none;
 }
 
 .swiper-container {
@@ -160,22 +161,26 @@ header .navigation li a {
     height: 460px;
     display: flex;
     justify-content: center;
+    background-image: none;
 }
 
 .content .imgBox {
     width: 500px;
     display: flex;
     justify-content: flex-end;
+    background-image: none;
 }
 
 .content .imgBox img {
     max-width: 150px;
+    background-image: none;
 }
 
 .swiper-slide img {
     position: absolute;
     bottom: 0;
     max-height: 100%;
+    background-image: none;
 }
 
 .swiper-container-3d .swiper-slide-shadow-left,
@@ -210,6 +215,7 @@ header .navigation li a {
     .content .imgBox
     {
         max-width: 90%;
+        background-image: none;
     }
 
     .swiper-slide {
